@@ -8,7 +8,7 @@ import javax.imageio.ImageReader;
 public class ImageResizingMAIN {
 	
 	public static void main(String[] args) throws Exception {
-		File imageFile = new File("vw.jpg");
+		File imageFile = new File("passat.jpg");
 		BufferedImage image = ImageIO.read(imageFile);
 		
 		int width = image.getWidth();
